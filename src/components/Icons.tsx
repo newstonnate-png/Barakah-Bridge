@@ -1,0 +1,44 @@
+import React from 'react';
+import { 
+  Home, 
+  Users, 
+  ShoppingBag, 
+  Briefcase, 
+  BookOpen, 
+  TrendingUp, 
+  Bell, 
+  MessageCircle, 
+  Search,
+  Menu,
+  X,
+  Heart,
+  Share2,
+  MapPin,
+  CheckCircle,
+  Star,
+  ShieldCheck,
+  Globe
+} from 'lucide-react';
+
+export const Icons = {
+  Home,
+  Network: Users,
+  Souk: ShoppingBag,
+  Exchange: Briefcase,
+  Majlis: BookOpen,
+  Capital: TrendingUp,
+  TrendingUp,
+  Notification: Bell,
+  Message: MessageCircle,
+  Search,
+  Menu,
+  Close: X,
+  Like: Heart,
+  Heart,
+  Share: Share2,
+  Location: MapPin,
+  Verified: CheckCircle,
+  Star,
+  Shield: ShieldCheck,
+  Globe
+};
