@@ -1,5 +1,5 @@
 import React from 'react';
-import { FEED_POSTS, MAJLIS_TOPICS, JOBS, SOUK_PRODUCTS } from '../constants';
+import { MAJLIS_TOPICS, JOBS, SOUK_PRODUCTS } from '../constants';
 import { Icons } from '../components/Icons';
 
 const Home: React.FC = () => {
