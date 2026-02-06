@@ -14,7 +14,8 @@ import { MOCK_USER } from './constants';
 
 const App: React.FC = () => {
   const [currentView, setCurrentView] = useState<View>(View.AUTH);
-  const [user, setUser] = useState(MOCK_USER);
+  // Removed setUser because it was unused
+  const [user] = useState(MOCK_USER);
 
   const renderView = () => {
     switch (currentView) {
