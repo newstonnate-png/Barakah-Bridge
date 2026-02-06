@@ -13,8 +13,9 @@ const TheMajlis: React.FC = () => {
   
   // Classroom State
   const [activeCourse, setActiveCourse] = useState<Course | null>(null);
-  const [activeVideoUrl, setActiveVideoUrl] = useState<string | null>(null);
-
+  
+  // Removed activeVideoUrl state because it was unused in the code
+  
   const filters = [
     { name: 'All', icon: null },
     { name: 'Islamic Finance', icon: '💰' },
