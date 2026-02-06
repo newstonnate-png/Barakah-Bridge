@@ -10,7 +10,7 @@ const Home: React.FC = () => {
         <div className="lg:col-span-2 bg-white rounded-2xl p-8 shadow-sm border border-gray-100 flex flex-col justify-center relative overflow-hidden group">
           <div className="absolute right-0 top-0 w-64 h-64 bg-emerald-50 rounded-full translate-x-20 -translate-y-20 opacity-50 group-hover:scale-110 transition-transform duration-700"></div>
           <div className="relative z-10">
-            <h1 className="text-3xl font-bold text-gray-900 mb-2">As-salamu alaykum, Justine.</h1>
+            <h1 className="text-3xl font-bold text-gray-900 mb-2">As-salamu alaykum, Abdullah.</h1>
             <p className="text-gray-500 mb-6 max-w-md">Your network is active. You have <span className="text-emerald-700 font-bold cursor-pointer hover:underline">3 pending bridge requests</span> and <span className="text-emerald-700 font-bold cursor-pointer hover:underline">5 new alerts</span>.</p>
             
             <div className="flex flex-wrap gap-3">
