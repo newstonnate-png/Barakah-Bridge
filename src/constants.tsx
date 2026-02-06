@@ -186,7 +186,7 @@ export const MOCK_COURSES: Course[] = [
   {
     id: 'c1',
     title: 'Intro to Islamic Finance',
-    instructor: 'Dr. Bilal Philips',
+    instructor: 'Dr. Rasuf Omandi',
     thumbnail: 'https://picsum.photos/id/160/400/300',
     progress: 35,
     totalLessons: 12,
