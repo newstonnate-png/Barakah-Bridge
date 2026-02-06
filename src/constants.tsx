@@ -2,7 +2,7 @@ import { CalendarEvent, ChatThread, Course, Experience, InvestmentOpportunity, J
 
 export const MOCK_USER: User = {
   id: 'u1',
-  name: 'Bai Justine',
+  name: 'Abdullah',
   headline: 'Halal Tech Innovator | Building the Digital Ummah',
   location: 'Dubai, UAE',
   avatar: 'https://picsum.photos/id/64/200/200',
@@ -18,7 +18,7 @@ export const USER_EXPERIENCE: Experience[] = [
 ];
 
 export const NETWORK_SUGGESTIONS: User[] = [
-  { id: 'n1', name: 'Dr. Bilal Philips', headline: 'Islamic Scholar', avatar: 'https://picsum.photos/id/33/200/200', location: 'Doha, QA', isVerified: true, role: 'Scholar' },
+  { id: 'n1', name: 'Dr. Rasuf Omandi', headline: 'Islamic Scholar', avatar: 'https://picsum.photos/id/33/200/200', location: 'Doha, QA', isVerified: true, role: 'Scholar' },
   { id: 'n2', name: 'Fatima Al-Fihri', headline: 'Education Activist', avatar: 'https://picsum.photos/id/44/200/200', location: 'Fes, MA', isVerified: true, role: 'Mentor' },
   { id: 'n3', name: 'Omar Suleiman', headline: 'Community Leader', avatar: 'https://picsum.photos/id/55/200/200', location: 'Dallas, US', isVerified: true, role: 'Scholar' },
   { id: 'n4', name: 'Yusuf Cat', headline: 'Nasheed Artist', avatar: 'https://picsum.photos/id/58/200/200', location: 'London, UK', isVerified: true, role: 'Creative' },
